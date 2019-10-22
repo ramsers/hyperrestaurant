@@ -1,0 +1,42 @@
+footer {
+    text-align: center;
+    padding: 100px 0 100px;
+    background: #001B3A;
+    color: white;
+nav {
+    display: inline-block;
+    padding-bottom: 25px;
+    a{
+        display: inline-block;
+        padding: 10px 20px 10px 0;
+        font-family: $textFont;
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+        transition: color .3s ease-in-out;
+        &:hover {
+            color: #E95C4B;
+        }
+    }
+
+}
+  .social-media {
+    //   display: inline-block;
+    margin-bottom: 30px;
+      padding: 0;
+      li {
+        padding: 20px 20px;
+          display: inline-block;
+          a{
+            color: white;
+            transition: color .3s ease-in-out;
+            &:hover {
+                color: $red;
+            }
+          }
+      }
+  }
+    .copyright {
+        color: $titleColor;
+    }
+}        

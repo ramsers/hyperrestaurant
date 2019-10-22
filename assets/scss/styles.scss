@@ -1,0 +1,29 @@
+@import "_reset";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|PT+Sans:400,700|Rozha+One&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+@import "_variables";
+@import "_grid";
+@import "_Header";
+@import "_TopImg";
+@import "_OurStory";
+@import "_SpecialMenu";
+@import "_RandomQuote";
+@import "_Reviews";
+@import "_ContactUs";
+@import "_Footer";
+@import "_global";
+
+
+
+
+
+body {
+  font-family: $textFont;
+  line-height: 1;
+  background: white;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+

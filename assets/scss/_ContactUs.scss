@@ -1,0 +1,40 @@
+#ContactUs {
+    padding: 100px 0; 
+    h5 {
+        text-align: center;
+    }
+    .box {
+        padding: 70px;
+        background: #fff;
+        .title {
+            font-size: 2rem;
+            font-family: $displayFont;
+            margin-bottom: 1.1rem;
+        }
+
+        .h6 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: $titleColor;
+            line-height: 1.7rem;
+        }
+        p{
+            font-weight: 400;
+            margin-bottom: 50px;
+            strong {
+                color: #000;
+                text-transform: capitalize;
+                font-weight: 700;
+            }
+            a{
+                text-decoration: none;
+                color: $paragraphColor;
+                transition: all .4s ease-in-out;
+                &:hover{
+                    color: $red;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

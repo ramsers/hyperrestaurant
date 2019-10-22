@@ -1,0 +1,92 @@
+#SpecialMenu {
+    padding: 100px 0;
+   
+    h2 {
+        text-align: center;
+    }
+    h5 {
+        text-align: center;
+    }
+    .box {
+        background: #fff;
+        padding: 20px;
+        .box-img {
+            width: 100%;
+            height: 200px;
+            background-image:url('https://images.unsplash.com/photo-1528731708534-816fe59f90cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+            background-position: center;
+            background-size: cover;
+            background-repeat: repeat;
+            background-image: url('https://images.unsplash.com/photo-1546964124-0cce460f38ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60');
+            position: relative;
+            margin-bottom: -75px;
+        }
+        .price-circle {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            bottom: 0;
+            margin: 0 auto;
+            font-family: $displayFont;
+            font-size: 3rem;
+            text-align: center;
+            background: #fff;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // -webkit-box-shadow: 0px 0px 0px 10px rgba(255,255,255,0.41);
+            transition: all .4s ease-in-out;
+            &:hover {
+                background: $green;
+                color: #fff;
+            }
+        }
+        // .price-circle2 {
+        //     position: absolute;
+        //     left: 50%;
+        //     transform: translate(-50%, 50%);
+        //     bottom: 0;
+        //     margin: 0 auto;
+        //     font-family: $displayFont;
+        //     font-size: 3rem;
+        //     text-align: center;
+        //     background: #fff;
+        //     height: 100px;
+        //     width: 100px;
+        //     border-radius: 50%;
+        //     display: flex;
+        //     align-items: center;
+        //     justify-content: center;
+        //     -webkit-box-shadow: 0px 0px 0px 10px rgba(255,255,255,0.41);
+        // }
+        .copy-ctn {
+            margin-top: 143px;
+        }
+        .title {
+            display: block;
+            font-weight: 600;
+            font-size: .9rem;
+            text-align: center;
+        }
+        .details {
+            font-weight: 300;
+            font-size: .8rem;
+            text-align: center;
+            line-height: 1.5;
+        }
+    }
+    .boxes {
+        padding-bottom: 50px;
+    }
+    a.link {
+        color: #000;
+        font-family: $displayFont;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        padding-top: 15px;
+    }
+}
